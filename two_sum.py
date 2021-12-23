@@ -1,4 +1,7 @@
 # https://leetcode.com/problems/two-sum/
+# adding a new line of code 
+newVariable = 1
+newString = "string"
 
 """
 sort the list of nums
