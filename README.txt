@@ -98,3 +98,19 @@ git push origin master
 If you wish to remote a remote
 git remote remove <name_of_remote>
 Congratulations! You have pushed your first change to github!
+
+
+
+
+***********
+C:\Users\user\Desktop\hello_git>git push origin master
+To https://github.com/zhengyanglim057/leetcode_solution.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/zhengyanglim057/leetcode_solution.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+solve it using 
+C:\Users\user\Desktop\hello_git>git push origin master --force
